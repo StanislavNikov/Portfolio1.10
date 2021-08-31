@@ -494,6 +494,7 @@ button:hover, button:focus,
 .about__main > h2 {
   font-weight: var(--fw1);
   font-size: var(--fs2);
+  margin-top: 20px;
 }
 
 .about__main > h3 {

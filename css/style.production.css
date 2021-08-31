@@ -662,6 +662,7 @@ button:hover, button:focus,
 .about__main > h2 {
   font-weight: 400;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .about__main > h3 {
