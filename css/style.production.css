@@ -298,6 +298,11 @@ button:hover, button:focus,
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
+.correction {
+  display: inline-block;
+  height: 37px;
+}
+
 .back-n-forth {
   width: 100%;
   max-height: 40px;
@@ -324,33 +329,7 @@ button:hover, button:focus,
   -ms-grid-column: 2;
 }
 
-.back-n-forth-contact {
-  width: 100%;
-  max-height: 40px;
-  margin-top: 33px;
-  color: white;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-  grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: 1fr;
-  grid-template-rows: 1fr;
-  background-color: transparent;
-  font-weight: 500;
-  font-size: 22px;
-}
-
-.back-n-forth-contact > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-
-.back-n-forth-contact > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-}
-
-.back-n-forth > a, .back-n-forth-contact > a {
+.back-n-forth > a {
   text-decoration: none;
   padding: 5px;
 }
@@ -398,13 +377,13 @@ button:hover, button:focus,
 }
 
 .index-blog {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: left;
-  width: 100%;
 }
 
 .index-blog__item {
@@ -867,7 +846,7 @@ button:hover, button:focus,
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;

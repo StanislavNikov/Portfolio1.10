@@ -275,6 +275,11 @@ button:hover, button:focus,
   box-shadow: var(--box-s-p-h);
 }
 
+.correction {
+  display: inline-block;
+  height: 37px;
+}
+
 .back-n-forth {
   width: 100%;
   max-height: 40px;
@@ -288,20 +293,7 @@ button:hover, button:focus,
   font-size: var(--fs4);
 }
 
-.back-n-forth-contact {
-  width: 100%;
-  max-height: 40px;
-  margin-top: 33px;
-  color: white;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  background-color: transparent;
-  font-weight: var(--fw2);
-  font-size: var(--fs4);
-}
-
-.back-n-forth > a, .back-n-forth-contact > a {
+.back-n-forth > a {
   text-decoration: none;
   padding: 5px;
 }
